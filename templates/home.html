@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<video width="500" height="380" class="center" autoplay loop>
+  <source src= "{% static 'Hello.mp4' %}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+	<div class="form-style" align="middle" style="display: flex; justify-content: space-between;">
+	<a href="{% url 'animation' %}" style="margin-right: 5px"><button class="button">Start signing...</button></a>
+    <a href="{% url 'signup' %}">
+        <button class="button">
+            {% if not user.is_authenticated %}
+                New User? Signup here
+            {% endif%}
+        </button>
+    </a>
+	</div>
+{% endblock %}
