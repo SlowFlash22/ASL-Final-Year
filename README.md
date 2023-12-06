@@ -27,3 +27,6 @@ These instructions will get you download the project and running on your local m
 4. Sign up and start signing
 5. Click on mic button to record speech or enter your sentence
 6. Speech will be processed and respective animated signed outputs are shown.
+
+### For sign language to text conversion:
+- Please check the folder SignLangToText and follow the instructions its README.md file.

@@ -1,3 +1,6 @@
 /virtual
 .idea/
 .DS_store
+/SignLangToText/.idea/
+/SignLangToText/model/_pycache_
+/SignLangToText/utils/_pycache_
